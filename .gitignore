@@ -1,0 +1,52 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile
+*.pro.user*
+debug/
+release/
+build/
+.vs/
+*.user
+
+# 第三方库（体积大，可单独说明依赖）
+ffmpeg-4.2.2/
+SDL2-2.0.10/
+opencv 库/
+hiredis-0.14.0/
+redis-3.0-annotated-中文注释/
+dll/
+
+# 压缩包和安装包
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 媒体文件（视频素材太大）
+素材/
+image/
+
+# PDF 文档（非代码）
+*.pdf
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
